@@ -20,15 +20,15 @@ The first step is to set up the php files on your http server. This could be som
 	* print_r is whatever message you want to send back to the app when the tokens do not mathc
 	* exit(0) is to stop the rest of the php file since they are not verified
 
-3.) Set up JAR
-	1.) Create a directroy called 'libs' in the root directory of your project
-	2.) Download the ParabalToken.jar file and move it into the libs folder
-	3.) Rightclick on the jar and select Build Path > Add to Build Path
-	4.) In the header of your file include 
+3. Set up JAR
+	1. Create a directroy called 'libs' in the root directory of your project
+	2. Download the ParabalToken.jar file and move it into the libs folder
+	3. Rightclick on the jar and select Build Path > Add to Build Path
+	4. In the header of your file include 
 		```
 		import com.parabal.*;
 		```
-	5.) To use 
+	5. To use 
 		* Create new ServerContact information. First parameter is the location from the http server's root directory, second is the server address
 		```
 		ServerContact c = new ServerContact("tokenTester.php","192.168.25.253");
