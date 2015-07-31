@@ -1,2 +1,1 @@
-# Android-Token-Authentication
-Authenticate users with client-server token authentication to secure your app
+<h1><b>Android Client-Server Token Authentication</b></h1>
